@@ -3,7 +3,7 @@ In this project, I try to connect the power of Python with the versatility of ar
 Note: as a biologist, I'm a newbie when it comes to programming. This is my first ambitious project, so helpful comments are greatly appreciated and please be gentle - it's my first time.
 
 # System components
-I currently work with Python 3.6 and arduino IDE 1.8.2 and try to keep this project compatible with recent updates. 
+I currently work with Python 3.6 and arduino IDE 1.8.2 on a windows-10 machine and try to keep this project compatible with recent updates.
 I use the following hardware components:
 - Arduino Uno rev. 3 ([link](https://store.arduino.cc/arduino-uno-rev3))
 - Atlas Scientific dissolved oxygen probe ([link](https://www.atlas-scientific.com/product_pages/probes/do_probe.html))
