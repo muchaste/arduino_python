@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de456802-4987-411a-8254-7bcfb6c0e9c1" name="Default" comment="Created a first version of a simple script to upload a sketch to a connected arduino via the Windows command line. Needs implementation into a GUI and has to work as a function. &#10;Added the official tentacle_setup sketch from the whiteboxes support page as it is this sketch, I will be working with mostly.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/arduino_python.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="de456802-4987-411a-8254-7bcfb6c0e9c1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sketch_upload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tentacle_setup.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -239,6 +232,14 @@
       <option name="presentableId" value="Default" />
       <updated>1502791482758</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created a first version of a simple script to upload a sketch to a connected arduino via the Windows command line. Needs implementation into a GUI and has to work as a function. &#10;Added the official tentacle_setup sketch from the whiteboxes support page as it is this sketch, I will be working with mostly.">
+      <created>1502808575506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502808575506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
