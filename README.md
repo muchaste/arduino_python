@@ -1,5 +1,6 @@
 # A project to read sensor data from Arduino and upload sketches via a python-based GUI
 In this project, I try to connect the power of Python with the versatility of arduino microcontrollers. I work at the Humboldt-University of Berlin and try to build my own setup to monitor dissolved oxygen (DO) and temperature in water. In a second step I then want to control the gas flow into the water through solenoid valves or gas mixing devices.
+Note: as a biologist, I'm a newbie when it comes to programming. This is my first ambitious project, so helpful comments are greatly appreciated and please be gentle - it's my first time.
 
 # System components
 I currently work with Python 3.6 and arduino IDE 1.8.2 and try to keep this project compatible with recent updates. 
