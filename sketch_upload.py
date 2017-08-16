@@ -14,6 +14,6 @@ for port in wmi.InstancesOf("Win32_SerialPort"):
     if "Arduino" in port.Name:
         comPort = ' --port ' + port.DeviceID
 
-command = "cmd /k arduino"+action+filepath_2+comPort    # Concatenate the single arguments into one command that is passed to the windows cmd.exe
+command = "cmd /k arduino"+action+filepath+comPort    # Concatenate the single arguments into one command that is passed to the windows cmd.exe
 
 subprocess.Popen(command, cwd=arduino_path)             # sets the arduino path as working directory in cmd.exe and executes the command
