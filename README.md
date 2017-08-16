@@ -24,3 +24,4 @@ The cons:
 
 # First step: upload sketches to arduino via Python
 Since arduino IDE 1.5, it is possible to upload sketches to the arduino via the command line (check out [this](https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc) manual to learn the commands). In a first step, I want to write a short Python skript that allows me to input a filepath to an .ino sketch which it will then upload to the arduino. Later, this should be integrated into the main program.
+Update: finished a first simple python script that does upload sketches to the arduino via the windows cmd.exe: sketch_upload.py
