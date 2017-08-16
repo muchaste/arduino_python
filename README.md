@@ -23,7 +23,10 @@ The cons:
 - EZO circuits are patent-protected and do some black-box stuff (e.g. temperature-compensation) that could mess with your readings
 - more expensive than completely DIY solutions
 
-# First step: upload sketches to arduino via Python
+# First step: python skript to upload sketches to arduino via command line
 Since arduino IDE 1.5, it is possible to upload sketches to the arduino via the command line (check out [this](https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc) manual to learn the commands). In a first step, I want to write a short Python skript that allows me to input a filepath to an .ino sketch which it will then upload to the arduino. Later, this should be integrated into the main program.
 
 Update: finished a first simple python script that does upload sketches to the arduino via the windows cmd.exe: sketch_upload.py
+
+# Second step: python skript to monitor incoming serial data
+The incoming sensor values have to be displayed and stored in a .csv file. For that, incoming serial data has to be decoded and saved in temporary holding variables that are then passed to a csv.writer module in python. Visualization of the stored values is the next step.
